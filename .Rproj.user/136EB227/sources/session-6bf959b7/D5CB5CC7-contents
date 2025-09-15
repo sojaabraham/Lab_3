@@ -1,0 +1,6 @@
+devtools::install()
+
+library(PackageLab3)
+hello()
+
+
