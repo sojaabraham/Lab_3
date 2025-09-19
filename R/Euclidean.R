@@ -2,11 +2,11 @@
 #'
 #' This function calculates the greatest common divisor of two input integers
 #'
-#' @param i an integer
-#' @param j an integer
+#' @param i an integer (numeric scalar)
+#' @param j an integer (numeric scalar)
 #'
 #' @details
-#' - If both inputs are zero, the GCD is undefined and an error is raised.
+#' - If both inputs are zero, then GCD is undefined and an error is raised.
 #' - If one input is zero, the GCD is the absolute value of the other input.
 #' - Negative inputs are allowed; the result is always returned as a positive integer.
 #'
