@@ -7,6 +7,11 @@ Authors@R: c(
       "Soja", "Abraham",
       email = "sojab160@student.liu.se",
       role = c("aut", "cre")
+    ),
+    person(
+      "Saranya", "Sankar",
+      email = "sarsa961@student.liu.se",
+      role = c("aut")
     )
   )
 Description: This package is used to implement two functions: euclidean(), to get 
