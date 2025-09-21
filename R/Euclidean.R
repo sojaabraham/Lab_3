@@ -10,14 +10,18 @@
 #' - If one input is zero, the GCD is the absolute value of the other input.
 #' - Negative inputs are allowed; the result is always returned as a positive integer.
 #'
+#' @return
+#'    A single numeric value: the greatest common divisor of the two inputs.
+#'
+#' @references Wikipedia Reference *Euclidean algorithm*
+#'   \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+#'
 #' @examples
 #' euclidean(120, 25) # Returns 5
 #' euclidean(123612, 13892347912) # Returns 4
-#' euclidean(0, 0) # Returns error
 #' euclidean(0, 12) # Returns 12
 #'
 #' @export
-
 euclidean <- function(i, j){
   if(!is.numeric(i) || !is.numeric(j) ||
       length(i) != 1 || length(j) != 1 ||
